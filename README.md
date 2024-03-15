@@ -1,5 +1,7 @@
 # Shopify Theme Tailwind
 
+(forked from https://github.com/viktorasbuivydas/shopify-theme-tailwind)
+
 This repository contains a starting point for Shopify Online Store 2.0 Theme
 development using [Tailwind CSS](https://tailwindcss.com) and [Vite](https://vitejs.dev).
 
@@ -29,7 +31,7 @@ development using [Tailwind CSS](https://tailwindcss.com) and [Vite](https://vit
    rm -rf .git && git init
    ```
 
-   If your default branch is not called `main`, please replace `main` with your
+   If your default branch is not called `master`, please replace `master` with your
    default branch name in `.github/workflows/deploy.yml`.
 
 2. **Add script and link tags**: Include `index.min.css` and `index.bundle.js` in the head tag (after `base.css`) `shopify/layout/theme.liquid`
